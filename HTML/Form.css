@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+fieldset{
+    padding: 10px;
+    border:20% ;
+    height: auto;
+    width: auto;
+    border-radius:10% ;
+    cursor:crosshair;
+}

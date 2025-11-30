@@ -1,0 +1,20 @@
+body{/*element selector*/
+    background-color: non-linear-gradient(red,green,yellow);
+    font-family: 'Times New Roman',Times,serif;
+}
+#p{/*(unique identification) selector*/
+font-size: 18px;
+margin-bottom:20px;
+}
+.bb{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25%;
+   cursor:progress;
+}
+.bb:hover{
+    border-radius: 50%;
+    background-color: powderblue;
+}

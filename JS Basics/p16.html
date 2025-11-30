@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>document-getElementById(id).innerText</h1>
+
+    <h2 id="clock"> </h2>
+
+    <script>
+        // var clk=document.getElementById("clock")
+        // clk.innerText=`time is ${new date().toTimeString}`;
+
+        setInterval(function(){
+            var clk=document.getElementById("clock")
+            clk.innerText=`time is ${new Date().toLocaleTimeString()}`;
+        },1000);
+
+    
+    </script>
+</body>
+</html>

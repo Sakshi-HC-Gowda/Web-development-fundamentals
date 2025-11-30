@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css"/>
+        <title>FORMS</title> 
+    </head> 
+    <body>
+         <h1 align="center"></h1>
+         <b><u>FORM</u></b> 
+         <form action="submit" method="post"> 
+            <fieldset>
+                 <legend>FORM _ELEMENTS</legend> 
+                 <label>NAME:</label>
+                  <input type="text" placeholder="ENTER YOUR NAME" required /><br /><br /> 
+                  <label>EMAIL:</label>
+                  <input type="email" required placeholder="ENTER YOUR EMAIL ID" /><br /><br /> 
+                  <label>PASSWORD:</label> 
+                  <input type="password" required placeholder="ENTER YOUR PASS" /><br /><br /> 
+                  <label>PH_NUM:</label> 
+                  <input type="number" placeholder="ENTER YOUR ph number" required max="10" /><br /><br /> 
+                  <label>GENDER:</label> 
+                  <input type="radio" id="male" name="gender" value="male" /> 
+                  <label for="male"> male</label> 
+                  <input type="radio" id="female" value="female" name="gender" /> 
+                  <label for="female">female</label> 
+                  <input type="radio" id="others" value="others" name="gender" />
+                   <label for="others">others</label><br /><br />
+                    <label>lang known:</label><br /> 
+                   <label>kannada</label>
+                    <input type="checkbox" name="lang" /> 
+                    <label>English</label>
+                    <input type="checkbox" name="lang" /> 
+                    <label>Telugu</label>
+                    <input type="checkbox" name="lang" /> <br /><br /> 
+                    <label>file upload:</label> <br /> 
+                    <input type="file" value="file" name="file" placeholder="upload ur file" /><br /><br />
+                    <label>comments:</label> <br /> 
+                    <textarea name="comments" placeholder="Enter ur comments" rows="2" cols="20" ></textarea><br><br>
+                    <input type="submit" value="submit"> 
+                    <input type="reset" value="reset"> </fieldset>
+                 </form> 
+</body>
+ </html>

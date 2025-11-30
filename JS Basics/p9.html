@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Object</h1>
+    <script>
+
+        //object is key value pair
+
+        var user={
+            firstName:"harry",
+            lastName:"david",
+            age:22,
+            gender:"male",
+            address:{
+                city:"Newyork"
+            },
+            hobbies:["cycling","riding","driving"]
+        };
+        console.log("user =",user)
+//method1
+        document.writeln(`<h1>first name is =${user.firstName}</h1>`)
+
+        document.writeln(`<h1>gender is =${user.gender} </h1>`)
+        //method 2
+        document.writeln(`<h1>last name is =${user["lastName"]}</h1>`)
+
+        document.writeln(`<h1>age is =${user["age"]} years</h1>`)
+    </script>
+</body>
+</html>
